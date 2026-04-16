@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    margin: 0;
+    background-color: #0d1b2e;
+    color: #f8f9fa;
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+}
